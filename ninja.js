@@ -1,9 +1,9 @@
 class Ninja {
-  constructor(name) {
+  constructor(name, health = 10, speed = 3, strength = 3) {
     this.name = name;
-    this.health = 10;
-    this.speed = 3;
-    this.strength = 3;
+    this.health = health;
+    this.speed = speed;
+    this.strength = strength;
   }
 
   // logs a ninja name
